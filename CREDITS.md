@@ -10,6 +10,10 @@ Every external asset and data source used by the game. Nothing in this repositor
   public domain. Converted to TopoJSON by `scripts/build-water.ts` with **topojson-server 3.0.1** (ISC, dev only).
   <https://github.com/nvkelso/natural-earth-vector>
 
+## Code
+
+- **three.js 0.187.0** — MIT. The 3D cat (`src/ui/cat3d/scene.ts`), built in code from simple shapes; no model files.
+
 ## Data
 
 - **Wikidata** — ISO codes of the 195 states, capitals and their coordinates, links to Russian Wikipedia articles; CC0.
