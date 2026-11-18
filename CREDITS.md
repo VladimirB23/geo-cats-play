@@ -14,6 +14,13 @@ Every external asset and data source used by the game. Nothing in this repositor
 
 - **three.js 0.187.0** — MIT. The 3D cat (`src/ui/cat3d/scene.ts`), built in code from simple shapes; no model files.
 
+## Music
+
+All music is synthesised in code (`src/platform/sound.ts`); there are no audio files. The themes in
+`src/platform/tunes.ts` are in the public domain: «Ode to Joy» (L. van Beethoven, Symphony No. 9, 1824),
+«Sakura Sakura» (Japanese folk song, Edo period), «Oh! Susanna» (S. Foster, 1848), «La Cucaracha» (Mexican
+folk song). The motifs for South America, Africa and Oceania are original to the game.
+
 ## Data
 
 - **Wikidata** — ISO codes of the 195 states, capitals and their coordinates, links to Russian Wikipedia articles; CC0.
