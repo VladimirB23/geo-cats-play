@@ -6,6 +6,9 @@ Every external asset and data source used by the game. Nothing in this repositor
 
 - **Natural Earth** (1:50m Admin 0 countries) — public domain. <https://www.naturalearthdata.com/>
 - Packaged as **world-atlas 2.0.2** by Mike Bostock — ISC licence. <https://github.com/topojson/world-atlas>
+- **Natural Earth** lakes (1:50m, and Loch Ness from 1:10m) and river centre lines (1:50m, the larger rivers) —
+  public domain. Converted to TopoJSON by `scripts/build-water.ts` with **topojson-server 3.0.1** (ISC, dev only).
+  <https://github.com/nvkelso/natural-earth-vector>
 
 ## Data
 
