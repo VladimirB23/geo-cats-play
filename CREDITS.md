@@ -37,7 +37,10 @@ folk song). The motifs for South America, Africa and Oceania are original to the
 
 ## Flags
 
-- **flag-icons 7.6.0** by Panayiotis Lipiridis — MIT licence. SVG flags, 4:3. <https://github.com/lipis/flag-icons>
+- **svg-country-flags 1.2.10** (github.com/hjnilsson/country-flags) — public domain (package licence "PD"); SVG flags taken
+  from Wikipedia / Wikimedia Commons in their official proportions. The 195 flags of the game are
+  made smaller with SVGO 4.1.0 (MIT, `npm run data:flags`) and kept in `src/data/flags/`. <https://github.com/hjnilsson/country-flags>
+  Until 2026-11-20 the game used flag-icons 7.6.0 (MIT), which redraws every flag at 4:3.
 
 ## Sound
 
