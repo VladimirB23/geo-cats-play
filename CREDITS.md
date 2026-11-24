@@ -16,10 +16,12 @@ Every external asset and data source used by the game. Nothing in this repositor
 
 ## Music
 
-All music is synthesised in code (`src/platform/sound.ts`); there are no audio files. The themes in
-`src/platform/tunes.ts` are in the public domain: «Ode to Joy» (L. van Beethoven, Symphony No. 9, 1824),
-«Sakura Sakura» (Japanese folk song, Edo period), «Oh! Susanna» (S. Foster, 1848), «La Cucaracha» (Mexican
-folk song). The motifs for South America, Africa and Oceania are original to the game.
+The melodies (`src/platform/tunes.ts`) are in the public domain: folk songs and works whose authors died more than 70 years ago. The arrangements (`src/platform/arrange.ts`) are made for this game. The notes were checked against the scores in Wikipedia
+(CC BY-SA 4.0): Korobeiniki, Ode to Joy, Londonderry Air, Auld Lang Syne, The Skye Boat Song, Greensleeves (fr), In the Hall of the
+Mountain King, Má vlast, Funiculì funiculà (it), Piano Sonata No. 11 (Mozart), Hava Nagila, Arirang, Mo Li Hua, When the Saints Go
+Marching In (de), Alouette, La Cucaracha, El cóndor pasa (fr; D. A. Robles, 1913, died 1942), Waltzing Matilda, Isa Lei.
+Also: the Galop from «Orpheus in the Underworld» (J. Offenbach, 1858), «Sakura Sakura» (Edo period), «Oh! Susanna» (S. Foster, 1848).
+«Утро в саванне» is original to the game; its bell is the standard pattern of West African music.
 
 ## Data
 
@@ -29,6 +31,8 @@ folk song). The motifs for South America, Africa and Oceania are original to the
   for each; CC BY 4.0. Indicators SP.POP.TOTL, AG.SRF.TOTL.K2, NY.GDP.MKTP.CD. <https://data.worldbank.org/>
 - **Wikidata** again for cities and sights: coordinates, city population and the name of the photo; CC0.
   Fetched by `scripts/build-places.ts` from the lists in `content/cities.json` and `content/sights.json`.
+- **GeoNames** (cities5000, alternate names) — a cross-check of city populations and ranks in `content/urban.json`; CC BY 4.0.
+  <https://www.geonames.org/>
 - **Unicode CLDR** (through the Node.js `Intl.DisplayNames` API) — Russian country names; Unicode License.
 - **Russian Wikipedia** — linked as the source in item cards (links only, no copied text); CC BY-SA 4.0.
 - Card texts are original and written for this project.
@@ -44,8 +48,13 @@ folk song). The motifs for South America, Africa and Oceania are original to the
 
 ## Sound
 
-- Effects and music are synthesised in the browser with the Web Audio API (`src/platform/sound.ts`).
-  The game ships no audio files.
+- Notes of 21 instruments — **FluidR3 GM** by Frank Wen, rendered note by note in **midi-js-soundfonts** (B. Gleitzman) —
+  CC BY 3.0. Every sixth semitone that the game uses, files unchanged. <https://github.com/gleitz/midi-js-soundfonts>
+- Voices of cats — Freesound, all CC0, cut and converted to WAV: «Cat meow» by philsapphire,
+  <https://freesound.org/people/philsapphire/sounds/256452>; «Cat purr domestic happy glad» by kentspublicdomain,
+  <https://freesound.org/people/kentspublicdomain/sounds/345039>; «catHisses.wav» by Zabuhailo,
+  <https://freesound.org/people/Zabuhailo/sounds/146960>
+- Drums and short clicks are synthesised in the browser (`src/platform/play.ts`).
 
 ## Fonts
 
