@@ -20,8 +20,8 @@ The melodies (`src/platform/tunes.ts`) are in the public domain: folk songs and 
 (CC BY-SA 4.0): Korobeiniki, Ode to Joy, Londonderry Air, Auld Lang Syne, The Skye Boat Song, Greensleeves (fr), In the Hall of the
 Mountain King, Má vlast, Funiculì funiculà (it), Piano Sonata No. 11 (Mozart), Hava Nagila, Arirang, Mo Li Hua, When the Saints Go
 Marching In (de), Alouette, La Cucaracha, El cóndor pasa (fr; D. A. Robles, 1913, died 1942), Botany Bay, Isa Lei.
-Also: the Galop from «Orpheus in the Underworld» (J. Offenbach, 1858), «Sakura Sakura» (Edo period), «Oh! Susanna» (S. Foster, 1848).
-«Утро в саванне» is original to the game; its bell is the standard pattern of West African music.
+Also: the Galop from "Orpheus in the Underworld" (J. Offenbach, 1858), "Sakura Sakura" (Edo period), "Oh! Susanna" (S. Foster, 1848).
+"Утро в саванне" is original to the game; its bell is the standard pattern of West African music.
 
 ## Data
 
@@ -50,10 +50,10 @@ Also: the Galop from «Orpheus in the Underworld» (J. Offenbach, 1858), «Sakur
 
 - Notes of 21 instruments — **FluidR3 GM** by Frank Wen, rendered note by note in **midi-js-soundfonts** (B. Gleitzman) —
   CC BY 3.0. Every sixth semitone that the game uses, files unchanged. <https://github.com/gleitz/midi-js-soundfonts>
-- Voices of cats — Freesound, all CC0, cut and converted to WAV: «Cat Meowing» by lextrack,
-  <https://freesound.org/people/lextrack/sounds/333916>; «Cat Meow2» by steffcaffrey,
-  <https://freesound.org/people/steffcaffrey/sounds/262313>; «Chrissie Purr Purr» by prodepha,
-  <https://freesound.org/people/prodepha/sounds/344253>; «Angry Cat» by Kinoton,
+- Voices of cats — Freesound, all CC0, cut and converted to WAV: "Cat Meowing" by lextrack,
+  <https://freesound.org/people/lextrack/sounds/333916>; "Cat Meow2" by steffcaffrey,
+  <https://freesound.org/people/steffcaffrey/sounds/262313>; "Chrissie Purr Purr" by prodepha,
+  <https://freesound.org/people/prodepha/sounds/344253>; "Angry Cat" by Kinoton,
   <https://freesound.org/people/Kinoton/sounds/656619>
 - Drums and short clicks are synthesised in the browser (`src/platform/play.ts`).
 
@@ -101,7 +101,7 @@ From Wikimedia Commons, resized and converted to WebP. Author and licence as sta
 - **Афинский Акрополь** — A.Savin, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg>
 - **Эверест** — shrimpo1967, CC BY-SA 2.0. <https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg>
 - **Лувр** — Benh LIEU SONG, CC BY 2.5. <https://commons.wikimedia.org/wiki/File:Cour_Napol%C3%A9on_at_night_-_Louvre.jpg>
-- **Кёльнский собор** — Thomas Wolf , www.foto-tw.de, CC BY-SA 3.0 de. <https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_von_Osten.jpg>
+- **Кельнский собор** — Thomas Wolf , www.foto-tw.de, CC BY-SA 3.0 de. <https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_von_Osten.jpg>
 - **Бранденбургские ворота** — Thomas Wolf , www.foto-tw.de, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_morgens.jpg>
 - **Замок Нойшванштайн** — Wilfredor, CC0. <https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_2024-02.jpg>
 - **Саграда Фамилия** — Canaan, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg>
@@ -141,7 +141,7 @@ From Wikimedia Commons, resized and converted to WebP. Author and licence as sta
 - **Водопад Виктория** — Diego Delso, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_05.jpg>
 - **Улуру** — Thomas Schoch, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Sunset_at_Uluru_on_July_30,_2005.jpg>
 - **Помпеи** — Glen Scarborough from The Central Coast, Australia, CC BY 2.0. <https://commons.wikimedia.org/wiki/File:Pompeii_(4873744179).jpg>
-- **Дворец Шёнбрунн** — C.Stadler/Bwag, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG>
+- **Дворец Шенбрунн** — C.Stadler/Bwag, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG>
 - **Монастыри Метеоры** — W. Bulach, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:00_0541_Kloster_Ag%C3%ADa_Tri%C3%A1da_(Meteora)_-_Griechenland.jpg>
 - **Замок Бран** — Todor Bozhinov, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:Bran_Castle_TB1.jpg>
 - **Атомиум** — Zairon, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:Laeken_Atomium_06.jpg>
@@ -154,7 +154,7 @@ From Wikimedia Commons, resized and converted to WebP. Author and licence as sta
 - **Пагода Шведагон** — Stefan Fussan, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Yangon_-_Shwedagon_Pagoda_03.jpg>
 - **Боробудур** — Gunawan Kartapranata, Public domain. <https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg>
 - **Бухта Халонг** — Thierry Borie colour adjusted by Lycaon, Public domain. <https://commons.wikimedia.org/wiki/File:Halong_ensemble_(colour_corrected).jpg>
-- **Мёртвое море** — Bernard Gagnon, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Dead_Sea,_Jordan_02.jpg>
+- **Мертвое море** — Bernard Gagnon, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Dead_Sea,_Jordan_02.jpg>
 - **Большой сфинкс** — MusikAnimal, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_May_2015.JPG>
 - **Абу-Симбел** — Olaf Tausch, Public domain. <https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_Tempel_(Abu_Simbel)_31.jpg>
 - **Водопад Анхель** — Paulo Capiotti, CC BY-SA 2.0. <https://commons.wikimedia.org/wiki/File:SaltoAngel4.jpg>
@@ -178,7 +178,7 @@ From Wikimedia Commons, resized and converted to WebP. Author and licence as sta
 - **Озеро Титикака** — Draceane, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:Isla_Taquile,_2023_(038).jpg>
 - **Солончак Уюни** — Pavel Špindler, CC BY 3.0. <https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni_-_panoramio_(10).jpg>
 - **Ледник Перито-Морено** — Fernando, CC BY-SA 4.0. <https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_2023.jpg>
-- **Плитвицкие озёра** — Pablo BM from London, England, CC BY 2.0. <https://commons.wikimedia.org/wiki/File:Plitvice_Lakes_National_Park_(2).jpg>
+- **Плитвицкие озера** — Pablo BM from London, England, CC BY 2.0. <https://commons.wikimedia.org/wiki/File:Plitvice_Lakes_National_Park_(2).jpg>
 - **Гейзер Гейсир** — Alexander Grebenkov, CC BY 3.0. <https://commons.wikimedia.org/wiki/File:Geysir,_Geysir_geothermal_field,_2019.jpg>
 <!-- photos:end -->
 
@@ -194,7 +194,7 @@ From Wikimedia Commons, resized and converted to WebP. Author and licence as sta
 - **Японский бобтейл** — ようてい, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:JapaneseBobtailBlueEyedMi-ke.JPG>
 - **Норвежская лесная кошка** — Pieter Lanser, CC BY 2.0. <https://commons.wikimedia.org/wiki/File:Norwegian_Forest_Cat_face.jpg>
 - **Турецкий ван** — Heikki Siltala, CC BY 3.0. <https://commons.wikimedia.org/wiki/File:TUV_Cesmes_Altinay_Aramis_Heikki_Siltala_3.jpg>
-- **Британская короткошёрстная кошка** — BritishEmpire, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg>
+- **Британская короткошерстная кошка** — BritishEmpire, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg>
 - **Персидская кошка** — The original uploader was Lajoma at Finnish Wikipedia ., CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Persialainen.jpg>
 - **Абиссинская кошка** — Martin Bahmann, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:Kamee01.jpg>
 - **Бурманская кошка** — Sergey Lubov, CC BY-SA 3.0. <https://commons.wikimedia.org/wiki/File:BurMau_Vega_Star,_champagne_burmese_kitten_(cropped).jpg>
